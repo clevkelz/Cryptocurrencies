@@ -6,7 +6,7 @@ Data on cryptocurrencies, including the coin name, trading status, total coins m
 
 ## Results
 
-The data were cleaned to remove untraded currencies, unworking algorithms and unmined currencies along with dropping rows with null values and this information was formatted into a dataframe.  The data were then divided into three principal components and these dimensions were placed into a new dataframe to hold the results.  Then, an elbow curve was created to find the best K value.  The K-means algorithm groups data into clusters that have some similarity to a centroid, which is data point representing the arithmetic means of the the points in a cluster.  The district groups were visualized in two- and three-dimensional scatter plot and a table was generated showing the currently tradable crytocurrencies.
+The data were cleaned to remove untraded currencies, unworking algorithms, and unmined currencies along with dropping rows with null values.  This cleansed data were formatted into a dataframe.  The information was then divided into three principal components and these dimensions were placed into a new dataframe to hold the results.  After that, an elbow curve was created to find the best K value.  The K-means algorithm groups data into clusters that have some similarity to a centroid, which is data point representing the arithmetic means of the the points in a cluster.  The district groups were visualized in two- and three-dimensional scatter plots and a table was generated showing the currently tradable crytocurrencies.
 
 The following visualizations did not appear when posting the Jupyter Notebook file on GitHub.  These screen shots show these visualizations:
 
